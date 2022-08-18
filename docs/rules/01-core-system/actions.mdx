@@ -2,6 +2,11 @@
 sidebar_position: 3
 ---
 
+import RollDice from "../../../src/components/Dice/RollDice";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+library.add(fas);
+
 # Actions
 
 When you as an individual or the enclave as a collective do something during the game to interact with or influence the world in some way, it's referred to as an action. Usually, performing an action is as simple as stating your intention and narrating what happens. There are four general types of actions:
@@ -12,6 +17,8 @@ When you as an individual or the enclave as a collective do something during the
 - Direct Actions
 
 ## Action Rolls
+
+<RollDice />
 
 When you attempt something _difficult_, _dangerous_, or _dramatic_, you make an _action roll_ to see how things go.
 
