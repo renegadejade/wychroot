@@ -20,12 +20,51 @@ const sidebars = {
       type: "category",
       label: "Core System",
       link: {
-        type: "generated-index",
-        title: "Core System",
-        description: "The basic rules and system for playing Wychroot",
-        slug: "rules/core-system",
+        type: "doc",
+        id: "rules/core-system/index",
       },
-      items: ["rules/core-system/actions"],
+      items: [
+        "rules/core-system/collaborative-storytelling",
+        "rules/core-system/game-structure",
+        "rules/core-system/action-rolls",
+        "rules/core-system/consequences",
+        "rules/core-system/progress-tracks",
+        "rules/core-system/fortune-rolls",
+      ],
+    },
+    {
+      type: "category",
+      label: "Characters",
+      link: {
+        type: "doc",
+        id: "rules/characters/index",
+      },
+      items: [
+        "rules/characters/character-creation",
+        {
+          type: "category",
+          label: "Playbooks",
+          link: {
+            type: "doc",
+            id: "rules/characters/playbooks/index",
+          },
+          items: ["rules/characters/playbooks/technomancer"],
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Enclaves",
+      link: {
+        type: "generated-index",
+        title: "Enclaves",
+        description: "Building a community.",
+        slug: "rules/enclaves",
+      },
+      items: [
+        "rules/enclaves/enclave-creation",
+        { Playbooks: ["rules/enclaves/playbooks/commune"] },
+      ],
     },
   ],
   // settingSidebar: [

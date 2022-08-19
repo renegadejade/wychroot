@@ -9,7 +9,7 @@
 body {
   font-family: acumin-pro, sans-serif;
   font-weight: 400;
-  font-size: large;
+  font-size: medium;
   font-style: normal;
 }
 
@@ -39,6 +39,11 @@ h3 {
   font-weight: 800;
   font-size: large;
 }
+
+.theme-doc-markdown {
+  max-width: 600px;
+}
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
