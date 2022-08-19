@@ -45,10 +45,19 @@ const sidebars = {
           type: "category",
           label: "Playbooks",
           link: {
-            type: "doc",
-            id: "rules/characters/playbooks/index",
+            type: "generated-index",
+            title: "Playbooks",
+            description: "How do you keep the enclave running?",
+            slug: "rules/characters/playbooks",
           },
-          items: ["rules/characters/playbooks/technomancer"],
+
+          items: [
+            "rules/characters/playbooks/technomancer",
+            "rules/characters/playbooks/sporetender",
+            "rules/characters/playbooks/biohacker",
+            "rules/characters/playbooks/storyteller",
+            "rules/characters/playbooks/archivist",
+          ],
         },
       ],
     },
@@ -56,10 +65,9 @@ const sidebars = {
       type: "category",
       label: "Enclaves",
       link: {
-        type: "generated-index",
-        title: "Enclaves",
-        description: "Building a community.",
-        slug: "rules/enclaves",
+        type: "doc",
+
+        id: "rules/enclaves/index",
       },
       items: [
         "rules/enclaves/enclave-creation",
