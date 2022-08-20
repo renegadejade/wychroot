@@ -7,17 +7,24 @@
 /* You can override the default Infima variables here. */
 
 body {
-  font-family: acumin-pro, sans-serif;
-  font-weight: 400;
-  font-size: medium;
-  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: large;
 }
 
-h1 {
-  font-family: acumin-pro-extra-condensed, sans-serif;
-  font-weight: 600;
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+/* h1 {
+  font-family: ff-prater-sans-web, sans-serif;
+  font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
+  color: #91a919;
 }
 
 h2 {
@@ -32,20 +39,20 @@ h3 {
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
-}
+} */
 
 .menu__link {
-  /* font-family: "Open Sans Condensed", sans-serif; */
-  font-weight: 800;
-  font-size: large;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  font-size: larger;
 }
 
-.theme-doc-markdown {
+/* .theme-doc-markdown {
   max-width: 600px;
-}
+} */
 
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #d71b57;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -58,7 +65,7 @@ h3 {
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #91a919;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;

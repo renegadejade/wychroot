@@ -52,11 +52,29 @@ const sidebars = {
           },
 
           items: [
-            "rules/characters/playbooks/technomancer",
-            "rules/characters/playbooks/sporetender",
-            "rules/characters/playbooks/biohacker",
-            "rules/characters/playbooks/storyteller",
             "rules/characters/playbooks/archivist",
+            "rules/characters/playbooks/biohacker",
+            "rules/characters/playbooks/sporetender",
+            "rules/characters/playbooks/storyteller",
+            "rules/characters/playbooks/technomancer",
+          ],
+        },
+        {
+          type: "category",
+          label: "Creations",
+          link: {
+            type: "generated-index",
+            title: "Creations",
+            description: "Cool Wychcraft Shit",
+            slug: "rules/characters/creations",
+          },
+
+          items: [
+            "rules/characters/creations/construct",
+            "rules/characters/creations/menagerie",
+            "rules/characters/creations/multitool",
+            "rules/characters/creations/operating-system",
+            "rules/characters/creations/shell",
           ],
         },
       ],

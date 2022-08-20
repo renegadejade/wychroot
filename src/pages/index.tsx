@@ -5,7 +5,11 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import RollDice from "../components/Dice/RollDice";
-
+import { ChakraProvider } from "@chakra-ui/react";
+import { Hero } from "../components/Homepage/Hero";
+import { Features } from "../components/Homepage/Features/Features";
+import theme from "../css/theme";
+import "@fontsource/open-sans";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -29,14 +33,18 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+    <ChakraProvider theme={theme}>
+      <Layout
+        title={`Hello from ${siteConfig.title}`}
+        description="Description will go into a meta tag in <head />"
+      >
+        <Hero />
+        <Features />
+        {/* <HomepageHeader /> */}
+        <main>
+          <HomepageFeatures />
+        </main>
+      </Layout>
+    </ChakraProvider>
   );
 }

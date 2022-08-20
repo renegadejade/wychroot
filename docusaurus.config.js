@@ -53,7 +53,7 @@ const config = {
       }),
     ],
   ],
-  stylesheets: ["https://use.typekit.net/net5egr.css"],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
