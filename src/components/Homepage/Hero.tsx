@@ -16,6 +16,7 @@ import * as React from "react";
 import { FaPlay } from "react-icons/fa";
 import "@fontsource/source-code-pro";
 import "@fontsource/passion-one";
+import "@fontsource/oxanium";
 // import * as Logos from "./Brands";
 
 export const Hero = () => {
@@ -34,7 +35,7 @@ export const Hero = () => {
               maxW="48rem"
               mx="auto"
               lineHeight="1.2"
-              fontFamily="Prater Sans"
+              fontFamily="Oxanium"
               fontWeight="800"
               fontStyle="normal"
             >
@@ -43,7 +44,7 @@ export const Hero = () => {
 
             <Text
               fontSize="4xl"
-              fontFamily="Prater Serif"
+              fontFamily="Oxanium"
               fontWeight="500"
               fontStyle="normal"
               textTransform="uppercase"
@@ -66,7 +67,7 @@ export const Hero = () => {
                 px="8"
                 bg="dark"
                 color="primary"
-                fontFamily="Prater Serif"
+                fontFamily="Oxanium"
                 fontWeight="700"
                 fontStyle="normal"
                 fontSize="2xl"

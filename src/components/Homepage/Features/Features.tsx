@@ -53,12 +53,12 @@ export const Features = () => (
                 color="inverted"
                 borderRadius="lg"
               >
-                <Icon as={feature.icon} boxSize={{ base: "5", md: "6" }} />
+                <Icon as={feature.icon} boxSize={{ base: "5", md: "10" }} />
               </Square>
               <Stack spacing={{ base: "1", md: "2" }}>
                 <Text
                   fontSize={{ base: "lg", md: "2xl" }}
-                  fontFamily="Prater Sans"
+                  fontFamily="Oxanium"
                   fontWeight="700"
                   fontStyle="normal"
                   textTransform="uppercase"

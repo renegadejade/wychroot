@@ -2336,6 +2336,21 @@
   resolved "https://registry.yarnpkg.com/@fontsource/asap/-/asap-4.5.8.tgz#8db9889d7a0df282d215c0c0f3fe467020d224c5"
   integrity sha512-W0QmknzT2ou6QSIz7ajlx0FxGZmf5myXvRQvlfKvsKWG6Zyg5qo4BgH5r6s+6/sF/2RM1LZ4+SOnhYTlGTq/Zw==
 
+"@fontsource/barlow-condensed@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/barlow-condensed/-/barlow-condensed-4.5.8.tgz#58c577653330671a9a593ff272a3137f888dca96"
+  integrity sha512-oyj6sLBaT3s+JBEPUBoAG39yx2FpRNrt3rt3mUtZYiMoPWltYlCnMPIvwXsi33nexwGs/CF++NuYQdnPFAfg5w==
+
+"@fontsource/barlow-semi-condensed@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/barlow-semi-condensed/-/barlow-semi-condensed-4.5.9.tgz#71100b097ed62ef4efb22ca205d7b34618f689ea"
+  integrity sha512-v6bF//0NbhgmeJjByFOY+V9z0Ejg0noEuFT0+47lb+0g2bbXtUXis0GVJHQAA8j7lF4bwKqJh4c3eA6WEN4vSw==
+
+"@fontsource/barlow@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/barlow/-/barlow-4.5.8.tgz#7e672230965a0761548f2d1805ee32d84b8b65d1"
+  integrity sha512-tfSFrtac5nVIehoYpQf0ZW1W+sKDnk3NEpuMfiyKHQFB95Mz00kSnZqXnIEaAwMxRjoLk+HQzaH+1O7B6Uo3rA==
+
 "@fontsource/open-sans-condensed@^4.5.5":
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/@fontsource/open-sans-condensed/-/open-sans-condensed-4.5.5.tgz#63550b4da6009bdd43164905b4093a63992be88a"
@@ -2345,6 +2360,11 @@
   version "4.5.11"
   resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.11.tgz#1e9f4346599bdc7752b741d17ee30ef4ebbc15e6"
   integrity sha512-nG0gmbx4pSr8wltdG/ZdlS6OrsMK40Wt6iyuLTKHEf0TQfzKRMlWaskZHdeuWCwS6WUgqHKMf9KSwGdxPfapOg==
+
+"@fontsource/oxanium@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/oxanium/-/oxanium-4.5.8.tgz#d545906b4690996f80d6d20a1ae0f9f2b3aabb5d"
+  integrity sha512-sFriIZ1h+zlchhhAKSm7KdDLj3U+Xg+QvmoBrSz5c0Mae+vnAngBU6I9yxE/WftLB4DUrGdYDoWfGqkPIXa7bQ==
 
 "@fontsource/passion-one@^4.5.8":
   version "4.5.8"

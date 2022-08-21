@@ -99,11 +99,11 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/pn94HbNGvA",
               },
               {
                 label: "Twitter",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                href: "https://twitter.com/Wychroot",
               },
             ],
           },
@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Wychroot © ${new Date().getFullYear()} by John Thomas is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>`,
+        copyright: `Wychroot © ${new Date().getFullYear()} John Thomas <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>`,
       },
       prism: {
         theme: lightCodeTheme,
