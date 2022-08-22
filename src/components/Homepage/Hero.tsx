@@ -35,7 +35,7 @@ export const Hero = () => {
               maxW="48rem"
               mx="auto"
               lineHeight="1.2"
-              fontFamily="Oxanium"
+              fontFamily="Prater Sans"
               fontWeight="800"
               fontStyle="normal"
             >
@@ -44,7 +44,7 @@ export const Hero = () => {
 
             <Text
               fontSize="4xl"
-              fontFamily="Oxanium"
+              fontFamily="Prater Serif"
               fontWeight="500"
               fontStyle="normal"
               textTransform="uppercase"
@@ -59,23 +59,22 @@ export const Hero = () => {
             mt="10"
             spacing="4"
           >
-            <LightMode>
-              <Button
-                // as="a"
-                // href="#"
-                size="xl"
-                px="8"
-                bg="dark"
-                color="primary"
-                fontFamily="Oxanium"
-                fontWeight="700"
-                fontStyle="normal"
-                fontSize="2xl"
-                textTransform="uppercase"
-              >
-                Read the Rules
-              </Button>
-              {/* <Button
+            <Button
+              as="a"
+              href="/rules/"
+              size="xl"
+              px="8"
+              bg="dark"
+              color="primary"
+              fontFamily="Prater Serif"
+              fontWeight="700"
+              fontStyle="normal"
+              fontSize="2xl"
+              textTransform="uppercase"
+            >
+              Read the Rules
+            </Button>
+            {/* <Button
                 as="a"
                 href="#"
                 size="xl"
@@ -88,7 +87,6 @@ export const Hero = () => {
               >
                 MESHnet
               </Button> */}
-            </LightMode>
           </Stack>
         </Box>
       </Box>

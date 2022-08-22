@@ -8,15 +8,14 @@ import {
   Stack,
   Text,
   useBreakpointValue,
-  Button,
 } from "@chakra-ui/react";
 import * as React from "react";
 import { features } from "./data";
 
 export const Features = () => (
-  <Box as="section" bg="dark">
+  <Box as="section" bg="primary">
     <Container
-      py={{ base: "16", md: "20" }}
+      py={{ base: "16", md: "24" }}
       maxW={{ base: "xl", md: "7xl" }}
       mx="auto"
     >
@@ -27,14 +26,14 @@ export const Features = () => (
           textAlign="center"
         >
           <Stack spacing="3">
-            <Heading
-              size={useBreakpointValue({ base: "sm", md: "xl" })}
-              textColor="secondary"
-              fontFamily="Prater Sans"
-            >
-              Features
+            <Heading size={useBreakpointValue({ base: "sm", md: "md" })}>
+              Why play?
             </Heading>
           </Stack>
+          <Text color="muted" fontSize={{ base: "lg", md: "xl" }} maxW="3xl">
+            A bundle of 210+ ready-to-use, responsive and accessible components
+            with clever structured sourcode files.
+          </Text>
         </Stack>
         <SimpleGrid
           columns={{ base: 1, md: 2, lg: 3 }}
@@ -54,11 +53,7 @@ export const Features = () => (
                 color="inverted"
                 borderRadius="lg"
               >
-                <Icon
-                  as={feature.icon}
-                  boxSize={{ base: "5", md: "10" }}
-                  color="secondary"
-                />
+                <Icon as={feature.icon} boxSize={{ base: "5", md: "10" }} />
               </Square>
               <Stack spacing={{ base: "1", md: "2" }}>
                 <Text
@@ -67,16 +62,12 @@ export const Features = () => (
                   fontWeight="700"
                   fontStyle="normal"
                   textTransform="uppercase"
-                  textColor="secondary"
                 >
                   {feature.name}
                 </Text>
-                <Text fontWeight="semibold" fontSize="lg" textColor="#e3e3e3">
+                <Text fontWeight="semibold" fontSize="lg">
                   {feature.description}
                 </Text>
-                <Button bg="secondary" size="sm" mx="auto">
-                  Explore {feature.name}
-                </Button>
               </Stack>
             </Stack>
           ))}

@@ -7,29 +7,52 @@
 /* You can override the default Infima variables here. */
 
 body {
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: acumin-pro, sans-serif;
   font-weight: 500;
+  font-style: normal;
   font-size: large;
 }
 
-h1,
-h2 {
+heading {
   text-transform: uppercase;
-  font-family: "Barlow", sans-serif;
+}
+
+h1 {
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: acumin-pro-semi-condensed, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 h3 {
-  text-transform: uppercase;
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 600;
+  font-family: acumin-pro-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: larger;
+}
+
+.keyword {
+  font-family: adelle-condensed, monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: small-caps;
+  /* text-transform: uppercase; */
+}
+
+.greenBg {
+  background-color: #91a919;
+  height: 100%;
 }
 
 .markdown > h3 {
   margin-bottom: 0.1rem;
-}
-
-.hide_h1 {
-  display: none;
 }
 
 /* h1 {
@@ -55,17 +78,65 @@ h3 {
 } */
 
 .menu__link {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: bold;
-  font-size: larger;
+  font-family: acumin-pro-semi-condensed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+  font-size: large;
+}
+
+.navbar {
+  background-color: #242526;
+}
+
+.navbar__title {
+  color: #e3e3e3;
+  font-family: ff-prater-sans-web, sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar__link {
+  color: #e3e3e3;
+
+  font-family: acumin-pro-semi-condensed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+  font-size: large;
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-primary);
+}
+
+.footer {
+  background-color: #242526;
+}
+
+.footer__link-item {
+  color: #91a919;
 }
 
 /* .theme-doc-markdown {
   max-width: 600px;
 } */
 
+.theme-admonition-info {
+  background-color: #7c233e;
+  border-color: #cd4d73;
+}
+
+.theme-admonition-tip {
+  background-color: #3d6502;
+  border-color: #91a919;
+}
+
+.main-wrapper {
+  background-color: #1b1b1d;
+}
+
 :root {
-  --ifm-color-primary: #d71b57;
+  --ifm-color-primary: #91a919;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -86,4 +157,6 @@ h3 {
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #1b1b1d;
+  --ifm-background-surface-color: #242526;
 }

@@ -5,12 +5,12 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import RollDice from "../components/Dice/RollDice";
-import { ChakraProvider } from "@chakra-ui/react";
+import { background, ChakraProvider } from "@chakra-ui/react";
 import { Hero } from "../components/Homepage/Hero";
 import { Features } from "../components/Homepage/Features/Features";
 import theme from "../css/theme";
 import "@fontsource/open-sans";
-import styles from "./index.module.css";
+import styles from "./home.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -39,11 +39,9 @@ export default function Home(): JSX.Element {
         description="Description will go into a meta tag in <head />"
       >
         <Hero />
+
         <Features />
-        {/* <HomepageHeader /> */}
-        <main>
-          <HomepageFeatures />
-        </main>
+        <div className="greenBg"></div>
       </Layout>
     </ChakraProvider>
   );

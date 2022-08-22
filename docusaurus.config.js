@@ -26,6 +26,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  stylesheets: ["https://use.typekit.net/net5egr.css"],
 
   presets: [
     [
@@ -57,25 +58,59 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: "join_discord",
+        content:
+          '<a target="_blank" rel="noopener noreferrer" href="#">Join the Wychroot Discord for updates and community.</a>',
+        backgroundColor: "#242526",
+        textColor: "#91a919",
+        isCloseable: true,
+      },
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: "Wychroot",
         logo: {
-          alt: "My Site Logo",
+          alt: "Wychroot Logo",
           src: "img/logo.svg",
         },
         items: [
+          {
+            type: "dropdown",
+            label: "Playbooks",
+            position: "left",
+
+            items: [
+              { to: "/devlog", label: "Archivist" },
+              { to: "/devlog", label: "Biohacker" },
+              { to: "/databender", label: "Databender" },
+              { to: "/devlog", label: "Sporetender" },
+              { to: "/devlog", label: "Storyteller" },
+            ],
+          },
+          {
+            type: "dropdown",
+            label: "Wychcraft",
+            position: "left",
+
+            items: [
+              { to: "/devlog", label: "Archivist" },
+              { to: "/devlog", label: "Biohacker" },
+              { to: "/devlog", label: "Databender" },
+              { to: "/devlog", label: "Sporetender" },
+              { to: "/devlog", label: "Storyteller" },
+            ],
+          },
           {
             type: "doc",
             docId: "rules/index",
             position: "left",
             label: "Rules",
           },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
+          { to: "/devlog", label: "Devlog", position: "left" },
         ],
       },
       footer: {
