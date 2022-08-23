@@ -1,5 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
 import type { StyleFunctionProps } from "@chakra-ui/styled-system";
+import "@fontsource/roboto-condensed";
 
 const theme = extendTheme({
   colors: {
@@ -15,7 +16,7 @@ const theme = extendTheme({
     Button: {
       // 1. We can update the base styles
       baseStyle: {
-        fontFamily: "Roboto Condensed",
+        fontFamily: "Roboto Condensed, sans-serif",
         fontWeight: "700",
         fontStyle: "normal",
         fontSize: "2xl",

@@ -41,13 +41,13 @@ export const Hero = () => (
               >
                 <Heading
                   size="4xl"
-                  fontFamily="Noir Lullaby"
+                  fontFamily="Noir Lullaby, serif"
                   textTransform="uppercase"
                   fontWeight="bold"
                 >
                   Wychroot
                 </Heading>
-                <Text fontSize="2xl" fontFamily="Roboto Slab">
+                <Text fontSize="2xl" fontFamily="Roboto Slab, serif">
                   a solarpunk rpg
                 </Text>
               </Stack>
@@ -91,7 +91,7 @@ export const Hero = () => (
             </Stack>
             <Text
               fontSize={{ base: "xl", md: "xl" }}
-              fontFamily="Roboto Condensed"
+              fontFamily="Roboto Condensed, sans-serif"
             >
               Playtest Alpha v0.1 Now Available
             </Text>

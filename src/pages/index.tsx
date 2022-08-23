@@ -14,6 +14,7 @@ import styles from "./home.module.css";
 import "@fontsource/roboto-slab";
 import "@fontsource/roboto-condensed";
 import "@fontsource/roboto";
+import "@fontsource/roboto-mono";
 import { SettingFeatures } from "../components/Homepage/SettingFeatures";
 import { PlannedFeatures } from "../components/Homepage/PlannedFeatures";
 import { HomeFooter } from "../components/Homepage/HomeFooter";
