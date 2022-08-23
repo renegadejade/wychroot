@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import * as React from "react";
 import { FaDiscord, FaDice } from "react-icons/fa";
+import "@fontsource/lilita-one";
 
 export const Hero = () => (
   <Box as="section" bg="primary" color="dark">
@@ -41,13 +42,17 @@ export const Hero = () => (
               >
                 <Heading
                   size="4xl"
-                  fontFamily="Noir Lullaby, serif"
+                  fontFamily="Lilita One, san-serif"
                   textTransform="uppercase"
                   fontWeight="bold"
                 >
                   Wychroot
                 </Heading>
-                <Text fontSize="2xl" fontFamily="Roboto Slab, serif">
+                <Text
+                  fontSize="2xl"
+                  fontFamily="Roboto Slab, serif"
+                  fontWeight="600"
+                >
                   a solarpunk rpg
                 </Text>
               </Stack>
