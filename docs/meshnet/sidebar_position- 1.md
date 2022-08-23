@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# MESHnet
 
 Let's discover _Wychroot_ in less than five minutes.
 
