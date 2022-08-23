@@ -63,8 +63,8 @@ export const Hero = () => (
               alignItems="center"
             >
               <Button
-                // as="a"
-                // href="#"
+                as="a"
+                href="/rules/"
                 size={useBreakpointValue({ base: "xl", md: "lg" })}
                 px="8"
                 bg="dark"
@@ -79,6 +79,8 @@ export const Hero = () => (
                 Read the Rules
               </Button>
               <Button
+                as="a"
+                href="/meshnet/"
                 variant="outline"
                 borderColor="dark"
                 border="2px"

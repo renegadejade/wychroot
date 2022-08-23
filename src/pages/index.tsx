@@ -6,6 +6,7 @@ import "@fontsource/roboto-slab";
 import "@fontsource/roboto-condensed";
 import "@fontsource/roboto";
 import "@fontsource/roboto-mono";
+import Layout from "@theme/Layout";
 import { Hero } from "../components/Homepage/Hero";
 import { GameFeatures } from "../components/Homepage/GameFeatures";
 import { SettingFeatures } from "../components/Homepage/SettingFeatures";
@@ -16,18 +17,20 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <ChakraProvider theme={theme}>
-      <head>
-        <title>${siteConfig.title}</title>
-        <meta
-          name="description"
-          content="Science-fantasy solarpunk roleplaying. Forged in the Dark."
-        />
-      </head>
-      <Hero />
-      <GameFeatures />
-      <SettingFeatures />
-      <PlannedFeatures />
-      <HomeFooter />
+      <Layout>
+        {/* <head>
+          <title>${siteConfig.title}</title>
+          <meta
+            name="description"
+            content="Science-fantasy solarpunk roleplaying. Forged in the Dark."
+          />
+        </head> */}
+        <Hero />
+        <GameFeatures />
+        <SettingFeatures />
+        <PlannedFeatures />
+        {/* <HomeFooter /> */}
+      </Layout>
     </ChakraProvider>
   );
 }

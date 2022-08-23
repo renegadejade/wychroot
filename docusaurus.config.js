@@ -110,6 +110,12 @@ const config = {
             position: "left",
             label: "Rules",
           },
+          {
+            type: "doc",
+            docId: "meshnet/index",
+            position: "left",
+            label: "MESHnet",
+          },
           { to: "/devlog", label: "Devlog", position: "left" },
         ],
       },

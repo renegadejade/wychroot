@@ -93,20 +93,25 @@ const sidebars = {
       ],
     },
   ],
-  // settingSidebar: [
-  //   "setting/intro",
-  //   {
-  //     type: "category",
-  //     label: "Avalon",
-  //     link: {
-  //       type: "generated-index",
-  //       title: "Avalon",
-  //       description: "Learn about the most important Docusaurus concepts!",
-  //       slug: "settings/avalon",
-  //     },
-  //     items: ["setting/avalon/welcome-to-avalon"],
-  //   },
-  // ],
+  meshnetSidebar: [
+    "meshnet/index",
+    "meshnet/factions/index",
+    "meshnet/locales/index",
+    "meshnet/people/index",
+    "meshnet/whispers/index",
+    "meshnet/wychcraft/index",
+    // {
+    //   type: "category",
+    //   label: "Factions",
+    //   link: {
+    //     type: "generated-index",
+    //     title: "Factions",
+    //     description: "Learn about the most important Docusaurus concepts!",
+    //     slug: "meshnet/factions",
+    //   },
+    //   items: ["setting/avalon/welcome-to-avalon"],
+    // },
+  ],
 
   // But you can create a sidebar manually
   /*
