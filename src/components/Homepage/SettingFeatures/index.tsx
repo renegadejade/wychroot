@@ -9,18 +9,20 @@ import {
   Text,
   useBreakpointValue,
   Button,
+  Link,
 } from "@chakra-ui/react";
+import { text } from "@fortawesome/fontawesome-svg-core";
 import * as React from "react";
 import { features } from "./data";
 
-export const Features = () => (
-  <Box as="section" bg="dark">
+export const SettingFeatures = () => (
+  <Box as="section" bg="secondary" color="dark">
     <Container
       py={{ base: "16", md: "20" }}
       maxW={{ base: "xl", md: "7xl" }}
       mx="auto"
     >
-      <Stack spacing={{ base: "12", md: "16" }}>
+      <Stack spacing={{ base: "12", md: "16" }} alignItems="center">
         <Stack
           spacing={{ base: "4", md: "5" }}
           align="center"
@@ -28,16 +30,17 @@ export const Features = () => (
         >
           <Stack spacing="3">
             <Heading
-              size={useBreakpointValue({ base: "sm", md: "xl" })}
-              textColor="secondary"
-              fontFamily="Prater Sans"
+              size="lg"
+              fontFamily="Roboto Slab"
+              textTransform="uppercase"
             >
-              Features
+              A science-fantasy setting
             </Heading>
           </Stack>
         </Stack>
+
         <SimpleGrid
-          columns={{ base: 1, md: 2, lg: 3 }}
+          columns={{ base: 1, md: 2 }}
           columnGap={8}
           rowGap={{ base: 10, md: 16 }}
         >
@@ -46,9 +49,12 @@ export const Features = () => (
               key={feature.name}
               spacing={{ base: "4", md: "5" }}
               align="center"
-              textAlign="center"
+              // textAlign="center"
+              bg="secondaryLighter"
+              px="4"
+              py="4"
             >
-              <Square
+              {/* <Square
                 size={{ base: "10", md: "12" }}
                 bg="accent"
                 color="inverted"
@@ -57,30 +63,39 @@ export const Features = () => (
                 <Icon
                   as={feature.icon}
                   boxSize={{ base: "5", md: "10" }}
-                  color="secondary"
+                  // color="secondary"
                 />
-              </Square>
+              </Square> */}
               <Stack spacing={{ base: "1", md: "2" }}>
                 <Text
                   fontSize={{ base: "lg", md: "2xl" }}
-                  fontFamily="Prater Serif"
-                  fontWeight="700"
+                  fontFamily="Roboto Slab"
+                  fontWeight="bold"
                   fontStyle="normal"
                   textTransform="uppercase"
-                  textColor="secondary"
                 >
                   {feature.name}
                 </Text>
-                <Text fontWeight="semibold" fontSize="lg" textColor="#e3e3e3">
+                <Text fontFamily="Roboto" fontWeight="600" fontSize="large">
                   {feature.description}
                 </Text>
-                <Button bg="secondary" size="sm" mx="auto">
-                  Explore {feature.name}
-                </Button>
               </Stack>
             </Stack>
           ))}
         </SimpleGrid>
+        <Button
+          disabled
+          // as="a"
+          // href="#"
+          bg="dark"
+          color="primary"
+          size="xl"
+          fontSize="lg"
+          fontFamily="Roboto Mono, monospace"
+          _hover={{ bg: "primary", color: "dark" }}
+        >
+          Enter MESHnet
+        </Button>
       </Stack>
     </Container>
   </Box>

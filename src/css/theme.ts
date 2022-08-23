@@ -5,7 +5,9 @@ const theme = extendTheme({
   colors: {
     primary: "#91A919",
     secondary: "#d71b57",
-    dark: "#1E2124",
+    secondaryDarker: "#b7174a",
+    secondaryLighter: "#e5316b",
+    dark: "#1b1b1d",
     mushroom: "#7E7A67",
   },
 
@@ -13,7 +15,11 @@ const theme = extendTheme({
     Button: {
       // 1. We can update the base styles
       baseStyle: {
-        fontWeight: "bold", // Normally, it is "semibold"
+        fontFamily: "Roboto Condensed",
+        fontWeight: "700",
+        fontStyle: "normal",
+        fontSize: "2xl",
+        textTransform: "uppercase",
       },
       // 2. We can add a new button size or extend existing
       sizes: {
@@ -40,11 +46,11 @@ const theme = extendTheme({
       // },
       //   },
       // 6. We can overwrite defaultProps
-      defaultProps: {
-        size: "lg", // default is md
-        variant: "sm", // default is solid
-        colorScheme: "purple", // default is gray
-      },
+      // defaultProps: {
+      //   size: "lg", // default is md
+      //   variant: "sm", // default is solid
+      //   colorScheme: "purple", // default is gray
+      // },
     },
   },
 });

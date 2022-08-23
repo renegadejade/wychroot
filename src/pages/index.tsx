@@ -5,12 +5,18 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import RollDice from "../components/Dice/RollDice";
-import { background, ChakraProvider } from "@chakra-ui/react";
+import { background, ChakraProvider, LightMode } from "@chakra-ui/react";
 import { Hero } from "../components/Homepage/Hero";
-import { Features } from "../components/Homepage/Features/Features";
+import { GameFeatures } from "../components/Homepage/GameFeatures";
 import theme from "../css/theme";
 import "@fontsource/open-sans";
 import styles from "./home.module.css";
+import "@fontsource/roboto-slab";
+import "@fontsource/roboto-condensed";
+import "@fontsource/roboto";
+import { SettingFeatures } from "../components/Homepage/SettingFeatures";
+import { PlannedFeatures } from "../components/Homepage/PlannedFeatures";
+import { HomeFooter } from "../components/Homepage/HomeFooter";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -34,15 +40,25 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <ChakraProvider theme={theme}>
-      <Layout
+      <head>
+        <title>${siteConfig.title}</title>
+        <meta
+          name="description"
+          content="Science-fantasy solarpunk roleplaying. Forged in the Dark."
+        />
+      </head>
+      {/* <Layout
         title={`Hello from ${siteConfig.title}`}
         description="Description will go into a meta tag in <head />"
-      >
-        <Hero />
+      > */}
+      <Hero />
 
-        <Features />
-        <div className="greenBg"></div>
-      </Layout>
+      <GameFeatures />
+      <SettingFeatures />
+      <PlannedFeatures />
+      <HomeFooter />
+
+      {/* </Layout> */}
     </ChakraProvider>
   );
 }

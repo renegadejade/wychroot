@@ -43,6 +43,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          path: "devlog",
+          blogTitle: "Devlog",
+          blogDescription: "Updates from the Wychroot devs.",
+          routeBasePath: "devlog",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -68,42 +72,38 @@ const config = {
       },
       colorMode: {
         defaultMode: "dark",
-        disableSwitch: true,
-        respectPrefersColorScheme: false,
+        disableSwitch: false,
       },
       navbar: {
         title: "Wychroot",
-        logo: {
-          alt: "Wychroot Logo",
-          src: "img/logo.svg",
-        },
+
         items: [
-          {
-            type: "dropdown",
-            label: "Playbooks",
-            position: "left",
+          // {
+          //   type: "dropdown",
+          //   label: "Playbooks",
+          //   position: "left",
 
-            items: [
-              { to: "/devlog", label: "Archivist" },
-              { to: "/devlog", label: "Biohacker" },
-              { to: "/databender", label: "Databender" },
-              { to: "/devlog", label: "Sporetender" },
-              { to: "/devlog", label: "Storyteller" },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "Wychcraft",
-            position: "left",
+          //   items: [
+          //     { to: "/devlog", label: "Archivist" },
+          //     { to: "/devlog", label: "Biohacker" },
+          //     { to: "/databender", label: "Databender" },
+          //     { to: "/devlog", label: "Sporetender" },
+          //     { to: "/devlog", label: "Storyteller" },
+          //   ],
+          // },
+          // {
+          //   type: "dropdown",
+          //   label: "Wychcraft",
+          //   position: "left",
 
-            items: [
-              { to: "/devlog", label: "Archivist" },
-              { to: "/devlog", label: "Biohacker" },
-              { to: "/devlog", label: "Databender" },
-              { to: "/devlog", label: "Sporetender" },
-              { to: "/devlog", label: "Storyteller" },
-            ],
-          },
+          //   items: [
+          //     { to: "/devlog", label: "Archivist" },
+          //     { to: "/devlog", label: "Biohacker" },
+          //     { to: "/devlog", label: "Databender" },
+          //     { to: "/devlog", label: "Sporetender" },
+          //     { to: "/devlog", label: "Storyteller" },
+          //   ],
+          // },
           {
             type: "doc",
             docId: "rules/index",
@@ -147,7 +147,7 @@ const config = {
             items: [
               {
                 label: "Devlog",
-                to: "/blog",
+                to: "/devlog",
               },
               {
                 label: "GitHub",

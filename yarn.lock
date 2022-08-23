@@ -2351,6 +2351,16 @@
   resolved "https://registry.yarnpkg.com/@fontsource/barlow/-/barlow-4.5.8.tgz#7e672230965a0761548f2d1805ee32d84b8b65d1"
   integrity sha512-tfSFrtac5nVIehoYpQf0ZW1W+sKDnk3NEpuMfiyKHQFB95Mz00kSnZqXnIEaAwMxRjoLk+HQzaH+1O7B6Uo3rA==
 
+"@fontsource/kelly-slab@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/kelly-slab/-/kelly-slab-4.5.8.tgz#6e780491607c5b45e8c3c201cc193ed3dbdac3f1"
+  integrity sha512-wioRYvlN1wT3lK4GUYT6q9GAHztqxv6aupvSnL3cZENZMJwj05aYSywvVJeMhQPCnE/azg/GwkgPwlt5ugFEgQ==
+
+"@fontsource/lilita-one@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/lilita-one/-/lilita-one-4.5.9.tgz#883c90cc395121420e95d00b4a0d2804e9047b71"
+  integrity sha512-r0YWJSZyFzL3TEdqc/mkBhJpHU4ri1pZQ8K23VBCHs53f27rf3WQ5Rbdncx1hpiWFCWZj7lTX5FgbjSax0Q7fA==
+
 "@fontsource/open-sans-condensed@^4.5.5":
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/@fontsource/open-sans-condensed/-/open-sans-condensed-4.5.5.tgz#63550b4da6009bdd43164905b4093a63992be88a"
@@ -2370,6 +2380,26 @@
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@fontsource/passion-one/-/passion-one-4.5.8.tgz#3ce61152084cc2af3239a0acec2f936ae5332f18"
   integrity sha512-fq1S8WNeDexqvWlSn1lNoFram9MEvZZMB0p4ppyQMeDmgti4MEUo/aZr/N6fTclAsXt6QXeA5E2A5mFDkdF2WA==
+
+"@fontsource/roboto-condensed@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-condensed/-/roboto-condensed-4.5.9.tgz#70582d0d70acf02323bdeb603e108b836030b42e"
+  integrity sha512-ql4sQq+h8puBVildZ5ssjYf8DWDONYDe3PD3Bu/p1ZW9GnRETRNPPcCTs/q62HIl3QimwwkiKWynn6wZhQaetg==
+
+"@fontsource/roboto-mono@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-mono/-/roboto-mono-4.5.8.tgz#f3a48195528b10e154c98365671de14e27605bdb"
+  integrity sha512-AW44UkbQD0w1CT5mzDbsvhGZ6/bb0YmZzoELj6Sx8vcVEzcbYGUdt2Dtl5zqlOuYMWQFY1mniwWyVv+Bm/lVxw==
+
+"@fontsource/roboto-slab@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-slab/-/roboto-slab-4.5.9.tgz#4e24dfb20c4ab89c3cb9c43ff736c4bb4e623a85"
+  integrity sha512-NTb8uSQSYqN5duI1EPZSigqrOeWkddQxixR1PhUemIXIIrmn+A3EoWOzcBlO0ZabTvHaoUSQo5bh9JOYMknjzQ==
+
+"@fontsource/roboto@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.5.8.tgz#56347764786079838faf43f0eeda22dd7328437f"
+  integrity sha512-CnD7zLItIzt86q4Sj3kZUiLcBk1dSk81qcqgMGaZe7SQ1P8hFNxhMl5AZthK1zrDM5m74VVhaOpuMGIL4gagaA==
 
 "@fontsource/source-code-pro@^4.5.11":
   version "4.5.11"
