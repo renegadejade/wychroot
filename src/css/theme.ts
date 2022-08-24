@@ -1,6 +1,7 @@
 import { extendTheme } from "@chakra-ui/react";
 import type { StyleFunctionProps } from "@chakra-ui/styled-system";
 import "@fontsource/roboto-condensed";
+import "@fontsource/source-code-pro";
 
 const theme = extendTheme({
   colors: {
@@ -11,7 +12,9 @@ const theme = extendTheme({
     dark: "#1b1b1d",
     mushroom: "#7E7A67",
   },
-
+  fonts: {
+    code: `'Source Code Pro', monospace`,
+  },
   components: {
     Button: {
       // 1. We can update the base styles

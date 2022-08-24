@@ -126,7 +126,11 @@ h3 {
 code {
   background-color: var(--ifm-code-background);
   font-weight: 600;
-  text-transform: uppercase;
+  font-variant: small-caps;
+  /* text-transform: uppercase; */
+  font-family: "Source Code Pro", monospace;
+
+  /* text-transform: uppercase; */
 }
 
 :root {
@@ -139,7 +143,7 @@ code {
   --ifm-color-primary-lightest: #839916;
   --ifm-background-color: #f2f2f2;
   --ifm-line-height-base: 1.4;
-  --ifm-font-family-monospace: "Roboto Mono", monospace;
+  --ifm-font-family-monospace: "Source Code Pro", monospace;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
