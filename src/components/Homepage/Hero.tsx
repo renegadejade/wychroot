@@ -42,7 +42,7 @@ export const Hero = () => (
               >
                 <Heading
                   size="4xl"
-                  fontFamily="Lilita One, san-serif"
+                  fontFamily="Lilita One, sans-serif"
                   textTransform="uppercase"
                   fontWeight="bold"
                 >
